@@ -13,3 +13,4 @@ let package = Package(
 )
 ```
 - Run `swift package update`
+- Import `CGLFW` in your project
