@@ -1,0 +1,5 @@
+module CGLFW [system] {
+    header "/usr/local/include/GLFW/glfw3.h"
+    link "glfw"
+    export *
+}
