@@ -7,9 +7,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "MyName",
-    dependencies: [
-    .Package(url: "https://github.com/runhum/CGLFW.git", majorVersion: 1)]
+name: "Editor",
+dependencies: [
+// Dependencies declare other packages that this package depends on.
+.package(url: "https://github.com/runhum/CGLFW.git", .branch("master"))
+]
 )
 ```
 - Run `swift package update`
